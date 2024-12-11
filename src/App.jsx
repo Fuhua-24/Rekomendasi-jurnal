@@ -17,7 +17,7 @@ function App() {
 
     try {
       const response = await fetch(
-        `http://127.0.0.1:8000/jurnal-rekomen/?abstract=${encodeURIComponent(
+        `https:///enchanting-analysis-production.up.railway.app/jurnal-rekomen/?abstract=${encodeURIComponent(
           inputValue
         )}&cachebust=${new Date().getTime()}`
       );
